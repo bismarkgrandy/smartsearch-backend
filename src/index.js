@@ -25,7 +25,7 @@ app.use(cookieParser());
 // }))
 app.use(
     cors({
-      origin: ["https://smartsearch.onrender.com"], // Allow frontend URL
+      origin: ["https://smartsearch-jtgp.onrender.com"], // Allow frontend URL
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE"], // Include PATCH here
       credentials: true, // Allow cookies and authentication headers
     })
